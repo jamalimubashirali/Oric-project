@@ -1,0 +1,82 @@
+{
+  "pageTitle": "News & Events",
+  "pageDescription": "Stay updated with the latest news, events, and achievements from MUET ORIC",
+  "newsItems": [
+    {
+      "id": "news_001",
+      "title": "TECHNICAL SESSION ON GEOTHERMAL ENERGY",
+      "date": "February 15, 2025",
+      "excerpt": "A Technical Session on Geothermal Energy was organized at the Science & Technology Park...",
+      "category": "Academic",
+      "image": "geothermalSession",
+      "fullImage": "geothermalSession",
+      "content": "A comprehensive technical session on Geothermal Energy was organized at the Science & Technology Park, highlighting the potential of renewable energy sources in Pakistan. The session featured expert speakers from various universities and industry professionals discussing the latest developments in geothermal energy technology.",
+      "author": "ORIC Team",
+      "tags": ["Renewable Energy", "Technology", "Academic"],
+      "featured": true
+    },
+    {
+      "id": "news_002",
+      "title": "ENGRO Corporation Recruitment Drive",
+      "date": "February 11, 2025",
+      "excerpt": "ENGRO Corporation conducted a recruitment drive at Mehran University...",
+      "category": "Career",
+      "image": "engroDrive",
+      "fullImage": "engroDrive",
+      "content": "ENGRO Corporation successfully conducted a recruitment drive at Mehran University, offering excellent career opportunities for our graduates. The event saw participation from students across various engineering disciplines.",
+      "author": "Career Services",
+      "tags": ["Career", "Recruitment", "Industry"],
+      "featured": false
+    },
+    {
+      "id": "news_003",
+      "title": "BitsPro Paid Internship Program",
+      "date": "February 10, 2025",
+      "excerpt": "BitsPro is organizing a recruitment drive for fresh graduates in collaboration with ORIC...",
+      "category": "Opportunity",
+      "image": "bitsproDrive",
+      "fullImage": "bitsproDrive",
+      "content": "BitsPro, in collaboration with ORIC, is organizing a comprehensive internship program for fresh graduates, providing hands-on experience in software development and technology solutions.",
+      "author": "Industry Relations",
+      "tags": ["Internship", "Technology", "Collaboration"],
+      "featured": false
+    },
+    {
+      "id": "news_004",
+      "title": "MUET CAREER FAIR 2025",
+      "date": "January 26, 2025",
+      "excerpt": "The MUET Career Fair, organized by ORIC at Mehran University...",
+      "category": "Event",
+      "image": "careerFair",
+      "fullImage": "careerFair",
+      "content": "The annual MUET Career Fair 2025, organized by ORIC, brought together leading companies and talented students, facilitating career opportunities and industry connections.",
+      "author": "Event Management",
+      "tags": ["Career Fair", "Event", "Industry"],
+      "featured": true
+    },
+    {
+      "id": "news_005",
+      "title": "MUET Excellence Award 2024",
+      "date": "December 15, 2024",
+      "excerpt": "MUET receives recognition for outstanding contributions to engineering education...",
+      "category": "Achievement",
+      "image": "muetAward",
+      "fullImage": "muetAward",
+      "content": "Mehran University of Engineering and Technology has been recognized with the Excellence Award 2024 for its outstanding contributions to engineering education and research innovation.",
+      "author": "University Administration",
+      "tags": ["Award", "Recognition", "Excellence"],
+      "featured": true
+    }
+  ],
+  "categories": [
+    { "name": "Academic", "color": "bg-blue-500", "count": 2 },
+    { "name": "Career", "color": "bg-green-500", "count": 2 },
+    { "name": "Event", "color": "bg-purple-500", "count": 1 },
+    { "name": "Opportunity", "color": "bg-orange-500", "count": 1 },
+    { "name": "Achievement", "color": "bg-yellow-500", "count": 1 }
+  ],
+  "pagination": {
+    "itemsPerPage": 3,
+    "showPagination": true
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Research Journals",
+  "pageDescription": "Publishing cutting-edge research in engineering and technology",
+  "journals": [
+    {
+      "id": "journal_001",
+      "title": "Mehran University Research Journal of Engineering and Technology",
+      "abbreviation": "MURJET",
+      "issn": "0254-7821",
+      "eissn": "2413-7219",
+      "frequency": "Quarterly",
+      "description": "A premier research journal publishing high-quality research in engineering and technology fields.",
+      "scope": [
+        "Civil Engineering",
+        "Mechanical Engineering",
+        "Electrical Engineering",
+        "Computer Science",
+        "Chemical Engineering",
+        "Electronics Engineering",
+        "Telecommunications"
+      ],
+      "editor": "Prof. Dr. Bhawani Shankar Chowdhry",
+      "established": "1982",
+      "indexing": [
+        "SCOPUS",
+        "Web of Science",
+        "HEC Recognized",
+        "DOAJ"
+      ],
+      "website": "https://publications.muet.edu.pk/research_papers/",
+      "impactFactor": "0.67",
+      "logo": "logo2",
+      "features": [
+        "Peer-reviewed articles",
+        "Open access publishing",
+        "International editorial board",
+        "Fast review process"
+      ]
+    }
+  ],
+  "submissionGuidelines": {
+    "title": "Submission Guidelines",
+    "requirements": [
+      "Original research work",
+      "Not published elsewhere",
+      "Proper citation and references",
+      "Technical quality and innovation",
+      "Clear methodology and results"
+    ],
+    "format": [
+      "IEEE format required",
+      "Maximum 8 pages",
+      "Include abstract and keywords",
+      "High-quality figures and tables"
+    ]
+  },
+  "metrics": [
+    {
+      "label": "Impact Factor",
+      "value": "0.67",
+      "description": "Current journal impact factor"
+    },
+    {
+      "label": "H-Index",
+      "value": "25",
+      "description": "Journal h-index rating"
+    },
+    {
+      "label": "Articles Published",
+      "value": "500+",
+      "description": "Total articles published annually"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "pageTitle": "Institutional Collaboration",
+  "pageDescription": "Academic partnerships and alliances with leading institutions worldwide",
+  "subtitle": "Building global academic networks for research and education excellence",
+  "collaborations": [
+    {
+      "id": "inst_001",
+      "name": "University of Engineering and Technology Lahore",
+      "country": "Pakistan",
+      "type": "Academic Partnership",
+      "description": "Joint research programs and faculty exchange",
+      "established": "2018",
+      "areas": ["Engineering", "Technology", "Research"],
+      "website": "https://www.uet.edu.pk"
+    },
+    {
+      "id": "inst_002",
+      "name": "NED University of Engineering and Technology",
+      "country": "Pakistan",
+      "type": "Research Collaboration",
+      "description": "Collaborative research projects and student exchange",
+      "established": "2019",
+      "areas": ["Civil Engineering", "Computer Science", "Electrical Engineering"],
+      "website": "https://www.neduet.edu.pk"
+    },
+    {
+      "id": "inst_003",
+      "name": "Ghulam Ishaq Khan Institute",
+      "country": "Pakistan",
+      "type": "Academic Alliance",
+      "description": "Joint degree programs and research initiatives",
+      "established": "2020",
+      "areas": ["Engineering", "Sciences", "Technology"],
+      "website": "https://www.giki.edu.pk"
+    },
+    {
+      "id": "inst_004",
+      "name": "COMSATS University",
+      "country": "Pakistan",
+      "type": "Research Partnership",
+      "description": "Collaborative research and academic programs",
+      "established": "2017",
+      "areas": ["Computer Science", "Engineering", "Business"],
+      "website": "https://www.comsats.edu.pk"
+    },
+    {
+      "id": "inst_005",
+      "name": "University of Bologna",
+      "country": "Italy",
+      "type": "International Partnership",
+      "description": "Student and faculty exchange programs",
+      "established": "2021",
+      "areas": ["Engineering", "International Studies"],
+      "website": "https://www.unibo.it"
+    },
+    {
+      "id": "inst_006",
+      "name": "Technical University of Munich",
+      "country": "Germany",
+      "type": "Research Collaboration",
+      "description": "Joint research projects and PhD programs",
+      "established": "2022",
+      "areas": ["Engineering", "Technology", "Innovation"],
+      "website": "https://www.tum.de"
+    }
+  ],
+  "partnershipTypes": [
+    {
+      "type": "Academic Partnership",
+      "description": "Student and faculty exchange programs",
+      "icon": "FaGraduationCap",
+      "benefits": ["Student mobility", "Joint degrees", "Faculty exchange"]
+    },
+    {
+      "type": "Research Collaboration",
+      "description": "Joint research projects and publications",
+      "icon": "FaFlask",
+      "benefits": ["Shared resources", "Joint publications", "Research funding"]
+    },
+    {
+      "type": "International Alliance",
+      "description": "Global partnerships for education excellence",
+      "icon": "FaGlobe",
+      "benefits": ["Global exposure", "Cultural exchange", "International recognition"]
+    }
+  ],
+  "benefits": [
+    "Enhanced research capabilities",
+    "International exposure for students",
+    "Faculty development opportunities",
+    "Access to global best practices",
+    "Joint funding opportunities",
+    "Knowledge and technology transfer"
+  ]
+}

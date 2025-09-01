@@ -1,0 +1,73 @@
+{
+  "pageTitle": "University Statistics",
+  "pageDescription": "Key metrics and achievements of Mehran University",
+  "stats": [
+    {
+      "id": "stat_001",
+      "icon": "GraduationCap",
+      "number": "25,000+",
+      "label": "Graduates",
+      "key": "graduates",
+      "color": "from-blue-400 to-cyan-400",
+      "description": "Alumni who have graduated from MUET",
+      "animationDelay": 0
+    },
+    {
+      "id": "stat_002",
+      "icon": "Users",
+      "number": "500+",
+      "label": "Faculty Members",
+      "key": "faculty",
+      "color": "from-purple-400 to-indigo-400",
+      "description": "Dedicated faculty members and researchers",
+      "animationDelay": 0.1
+    },
+    {
+      "id": "stat_003",
+      "icon": "BookOpen",
+      "number": "100+",
+      "label": "Programs",
+      "key": "programs",
+      "color": "from-emerald-400 to-teal-400",
+      "description": "Academic programs across various disciplines",
+      "animationDelay": 0.2
+    },
+    {
+      "id": "stat_004",
+      "icon": "Library",
+      "number": "50+",
+      "label": "Research Centers",
+      "key": "centers",
+      "color": "from-amber-400 to-orange-400",
+      "description": "Specialized research centers and labs",
+      "animationDelay": 0.3
+    },
+    {
+      "id": "stat_005",
+      "icon": "Landmark",
+      "number": "130+",
+      "label": "Years of Excellence",
+      "key": "years",
+      "color": "from-rose-400 to-pink-400",
+      "description": "Years of academic and research excellence",
+      "animationDelay": 0.4
+    }
+  ],
+  "achievements": [
+    {
+      "title": "QS World Ranking",
+      "value": "Top 800",
+      "description": "Among world's top universities"
+    },
+    {
+      "title": "Research Publications",
+      "value": "1000+",
+      "description": "Annual research publications"
+    },
+    {
+      "title": "Industry Partners",
+      "value": "200+",
+      "description": "Active industry collaborations"
+    }
+  ]
+}

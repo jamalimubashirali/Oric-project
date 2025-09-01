@@ -1,0 +1,79 @@
+{
+  "pageTitle": "Our Team",
+  "pageDescription": "Meet our dedicated team members",
+  "teamMembers": [
+    {
+      "id": "tm_001",
+      "name": "ARIF ALI JALBANI",
+      "position": "Manager Research Operations & Development",
+      "emails": ["arif.ali@admin.muet.edu.pk", "arifalieiu@gmail.com"],
+      "phone": "+92 21 2772250-73 Ext. 6503",
+      "mobile": "+92 316 8832427",
+      "fax": "+92 22 2772281",
+      "image": "ArifAli",
+      "department": "ORIC"
+    },
+    {
+      "id": "tm_002",
+      "name": "DR. SYED MUHAMMAD ALI SHAH",
+      "position": "Manager, University Industry Linkages & Technology Transfer",
+      "emails": ["smalis@yahoo.com"],
+      "phone": "+92 22 2030661 Ext. 6509",
+      "mobile": "+92 300 9234586",
+      "image": "SyedShah",
+      "department": "ORIC"
+    },
+    {
+      "id": "tm_003",
+      "name": "TARIQUE MASROOR AHMED",
+      "position": "Manager Intellectual Property / Legal Services",
+      "emails": ["tarique.masroor@admin.muet.edu.pk", "tarique.masroor@gmail.com"],
+      "mobile": "+92 300 3310275",
+      "image": "TariqueAhmed",
+      "department": "ORIC"
+    },
+    {
+      "id": "tm_004",
+      "name": "SAEED AHMED MEMON",
+      "position": "Accountant / Admin Officer",
+      "emails": ["saeed.memon@admin.muet.edu.pk"],
+      "phone": "+92 22 2772280 Ext. 6501",
+      "mobile": "+92 312 2787968",
+      "image": "SaeedMemon",
+      "department": "ORIC"
+    },
+    {
+      "id": "tm_005",
+      "name": "MUHAMMAD HARIS SHAIKH",
+      "position": "Research Associate",
+      "emails": ["haris.shaikh@admin.muet.edu.pk"],
+      "mobile": "+92 334 2334343",
+      "image": "HarisShaikh",
+      "department": "ORIC"
+    },
+    {
+      "id": "tm_006",
+      "name": "GUL HASSAN",
+      "position": "Office Assistant",
+      "emails": ["gul.hassan@admin.muet.edu.pk"],
+      "mobile": "+92 333 2719877",
+      "image": "GulHassan",
+      "department": "ORIC"
+    }
+  ],
+  "director": {
+    "id": "dir_001",
+    "name": "Prof. Dr. Tanveer Ahmed",
+    "position": "Director ORIC",
+    "image": "SirTanveer",
+    "message": "Welcome to the Office of Research, Innovation and Commercialization at Mehran University of Engineering and Technology.",
+    "department": "ORIC"
+  },
+  "contactInfo": {
+    "office": "Office of Research, Innovation and Commercialization",
+    "university": "Mehran University of Engineering and Technology",
+    "address": "Jamshoro, Sindh, Pakistan",
+    "generalPhone": "+92 22 2772250-73",
+    "generalEmail": "oric@admin.muet.edu.pk"
+  }
+}

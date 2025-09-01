@@ -1,0 +1,191 @@
+{
+  "pageTitle": "Funded Projects",
+  "pageDescription": "The University has secured funding on the following Projects from the National and International Funding Agencies. These Projects are led by highly qualified faculty members and dedicated research staff. The list of funded projects is given below",
+  "projects": {
+    "faculty": [
+      {
+        "id": "fp_001",
+        "title": "Pesticides removal by point of use nanofiltration membrane and their rapid detection in water using liquid chromatography mass spectrometry",
+        "pi": "Dr. Muhammad Rizwan",
+        "position": "Assistant Professor",
+        "department": "USPCAS-W",
+        "type": "faculty"
+      },
+      {
+        "id": "fp_002",
+        "title": "Synthesis of printable and conductive nano carbon ink and its potential application in textile structured solar cells",
+        "pi": "Dr. Anam Ali Memon",
+        "position": "Assistant Professor",
+        "department": "Textile Engineering",
+        "type": "faculty"
+      },
+      {
+        "id": "fp_003",
+        "title": "Development of Antimicrobial PP Mesh devices for Hernia repair",
+        "pi": "Dr. Noor Ahmed Sanbhal",
+        "position": "Associate Professor",
+        "department": "Textile Engineering",
+        "type": "faculty"
+      },
+      {
+        "id": "fp_004",
+        "title": "Conserving Indus river water quality through pollution source tracking, economical treatment systems, and water circular economy",
+        "pi": "Dr. Rasool Bux Mahar",
+        "position": "Professor",
+        "department": "USPCAS-W",
+        "type": "faculty"
+      },
+      {
+        "id": "fp_005",
+        "title": "Molecular source tracking of Salmonella species at different stages of poultry slaughtering",
+        "pi": "Dr. Naveed Ahmed",
+        "position": "Assistant Professor",
+        "department": "USPCAS-W",
+        "type": "faculty"
+      },
+      {
+        "id": "fp_006",
+        "title": "Development and Upscaling of Combined Adsorption Distillation Technique for Saline-Water Treatment and Fresh Water Production on Industrial-Scale (CAD-WATER)",
+        "pi": "Dr. Tanveer Ahmed Gadhi",
+        "position": "Assistant Professor",
+        "department": "USPCAS-W",
+        "type": "faculty"
+      },
+      {
+        "id": "fp_007",
+        "title": "Pesticides removal by point of use nanofiltration membrane and their rapid detection in water using liquid chromatography mass spectrometry",
+        "pi": "Dr. Rizwan Ahmed",
+        "position": "Assistant Professor",
+        "department": "USPCAS-W",
+        "type": "faculty"
+      },
+      {
+        "id": "fp_008",
+        "title": "Eco-Innovation for Sustainable Industrial Growth of Major Industrial Sectors in Special Economic Zones (ECZs) under CPEC",
+        "pi": "Dr. Zubair Ahmed",
+        "position": "Professor",
+        "department": "USPCAS-W",
+        "type": "faculty"
+      },
+      {
+        "id": "fp_009",
+        "title": "Indus river Flow Monitoring Using Satellite Radar Altimetry Data and 2D Flood Model",
+        "pi": "Dr. Arjumand Zaidi",
+        "position": "Senior Research Fellow",
+        "department": "USPCAS-W",
+        "type": "faculty"
+      },
+      {
+        "id": "fp_010",
+        "title": "FABRICATION OF FLEXIBLE DYE-SENSITIZED SOLAR CELLS BASED ON TEXTILE COATED WITH CARBON NANOCOMPOSITES AS COUNTER ELECTRODE MATERIAL",
+        "pi": "Dr. Naveed Mengal",
+        "position": "Associate Professor",
+        "department": "Textile Engineering",
+        "type": "faculty"
+      }
+    ],
+    "student": [
+      {
+        "id": "sp_001",
+        "title": "Securing defi: Elevating safety measures for layer 2 hardware wallets and verification",
+        "pi": "Engr. Shamshad Naveed",
+        "position": "Student",
+        "department": "N/A",
+        "type": "student"
+      },
+      {
+        "id": "sp_002",
+        "title": "Lexe – Revolutionizing Salon Booking in Pakistan (Mobile App)",
+        "pi": "Engr. Uroosa Shaikh",
+        "position": "Student",
+        "department": "N/A",
+        "type": "student"
+      },
+      {
+        "id": "sp_003",
+        "title": "Vision SmartEd Revolutionizing education for visually impaired students with accessible quizzes (Mobile App)",
+        "pi": "Engr. Uroosa Shaikh",
+        "position": "Student",
+        "department": "N/A",
+        "type": "student"
+      },
+      {
+        "id": "sp_004",
+        "title": "Hand Made (Thar) Sindh (Web Application)",
+        "pi": "Engr. Abdul Rauf",
+        "position": "Student",
+        "department": "N/A",
+        "type": "student"
+      },
+      {
+        "id": "sp_005",
+        "title": "Design & Fabrication of Low Cost Stair lift",
+        "pi": "ABDUL WASIU",
+        "position": "Student",
+        "department": "Mechanical Engineering",
+        "type": "student"
+      },
+      {
+        "id": "sp_006",
+        "title": "Design & Development of Solar PV and Solar Thermal Operated Solar Dryers for Sustainable Food Supplies in Pakistan",
+        "pi": "Sadaf Gul",
+        "position": "Student",
+        "department": "Electrical Engineering",
+        "type": "student"
+      },
+      {
+        "id": "sp_007",
+        "title": "Smart Forest: enabling IoT for intrusion detection in forest",
+        "pi": "Muhammad Waqar",
+        "position": "Student",
+        "department": "Telecom Engineering",
+        "type": "student"
+      },
+      {
+        "id": "sp_008",
+        "title": "Building a Data Communication Network Between Drones and Ground IoT Sensor Systems",
+        "pi": "Bilawal",
+        "position": "Student",
+        "department": "Telecom Engineering",
+        "type": "student"
+      },
+      {
+        "id": "sp_009",
+        "title": "Design and Implementation of an Automatic Cleaning & Dual-Axis Tracking System for Enhancing Solar Power Performance",
+        "pi": "Santosh Kumar",
+        "position": "Student",
+        "department": "Electrical Engineering",
+        "type": "student"
+      },
+      {
+        "id": "sp_010",
+        "title": "Design and development of the Bionic Hand (An advanced prosthetic hand)",
+        "pi": "Muhammad Hurrera",
+        "position": "Student",
+        "department": "Mechatronics Engineering",
+        "type": "student"
+      }
+    ]
+  },
+  "tableConfig": {
+    "headers": [
+      {
+        "key": "title",
+        "label": "Title of Research Proposal",
+        "icon": "FaFlask",
+        "width": "w-2/3"
+      },
+      {
+        "key": "pi",
+        "label": "Principal Investigator",
+        "icon": "FaUserGraduate",
+        "width": "w-1/3"
+      }
+    ],
+    "styling": {
+      "facultyColor": "bg-cyan-400",
+      "studentColor": "bg-blue-400",
+      "hoverColor": "hover:bg-[#082f49]/50"
+    }
+  }
+}

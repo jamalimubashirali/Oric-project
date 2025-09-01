@@ -1,0 +1,68 @@
+{
+  "footer": {
+    "about": {
+      "title": "MUET ORIC",
+      "description": "Office of Research, Innovation and Commercialization at Mehran University of Engineering and Technology.",
+      "logo": {
+        "alt": "MUET Logo",
+        "text": "ORIC"
+      }
+    },
+    "socialMedia": [
+      {
+        "name": "Facebook",
+        "icon": "FaFacebook",
+        "url": "#",
+        "color": "text-blue-300 hover:text-white hover:bg-blue-500/30"
+      },
+      {
+        "name": "LinkedIn",
+        "icon": "FaLinkedin",
+        "url": "#",
+        "color": "text-blue-300 hover:text-white hover:bg-blue-500/30"
+      },
+      {
+        "name": "Twitter",
+        "icon": "FaTwitter",
+        "url": "#",
+        "color": "text-blue-300 hover:text-white hover:bg-blue-500/30"
+      },
+      {
+        "name": "YouTube",
+        "icon": "FaYoutube",
+        "url": "#",
+        "color": "text-blue-300 hover:text-white hover:bg-blue-500/30"
+      }
+    ],
+    "quickLinks": [
+      { "name": "Home", "path": "/" },
+      { "name": "About", "path": "/aboutus" },
+      { "name": "Team", "path": "/about/team" },
+      { "name": "News & Events", "path": "/news-events" },
+      { "name": "Contact", "path": "/contact" },
+      { "name": "Research", "path": "/research-innovation/funded-projects" },
+      { "name": "Collaboration", "path": "/collaboration/industrial-collobration" },
+      { "name": "BIC", "path": "/bic/who-we-are" }
+    ],
+    "contact": {
+      "title": "Contact Information",
+      "address": {
+        "icon": "FaMapMarkerAlt",
+        "text": "Mehran University of Engineering and Technology, Jamshoro, Sindh, Pakistan"
+      },
+      "phone": {
+        "icon": "FaPhoneAlt",
+        "text": "+92 22 2772250-73"
+      },
+      "email": {
+        "icon": "FaEnvelope",
+        "text": "oric@admin.muet.edu.pk"
+      }
+    },
+    "copyright": {
+      "year": "2024",
+      "text": "MUET ORIC. All rights reserved.",
+      "organization": "Mehran University of Engineering and Technology"
+    }
+  }
+}

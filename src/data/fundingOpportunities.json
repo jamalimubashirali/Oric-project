@@ -1,0 +1,101 @@
+{
+  "pageTitle": "Research Funding Opportunities",
+  "pageDescription": "Comprehensive list of available research grants and funding programs",
+  "sections": [
+    {
+      "id": "interdisciplinary",
+      "title": "Opportunities of Interdisciplinary Research",
+      "icon": "FaFlask",
+      "iconColor": "text-cyan-400",
+      "backgroundColor": "bg-cyan-500/10",
+      "categories": [
+        {
+          "name": "Interdisciplinary Research Grants",
+          "items": [
+            "Engro Power",
+            "Engro Coal Mines",
+            "Dawlance",
+            "Engro Polymer",
+            "Ippex of IEEE",
+            "FFBL Power Company Limited",
+            "Liberty Mils Limited"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hec-grants",
+      "title": "HEC Grants",
+      "icon": "FaUniversity",
+      "iconColor": "text-cyan-400",
+      "backgroundColor": "bg-cyan-500/10",
+      "categories": [
+        {
+          "name": "Competitive Research Grants",
+          "items": [
+            "Grand Challenge Fund (GCF)",
+            "Local Challenge Fund (LCF)",
+            "Technology Transfer Support Fund (TTSF)",
+            "Innovative & Collaborative Research Grant (ICRG)",
+            "National Research Programme for Universities (NRPU)",
+            "CPEC- Collaborative Research Grant",
+            "RAPID Research & Innovation Initiative (RRII)",
+            "Problem Based Applied Interdisciplinary Research Programme (PBAIRP)",
+            "Technology Development Fund (TDF)"
+          ]
+        },
+        {
+          "name": "Research for Innovation Grants",
+          "items": [
+            "Innovator Seed Fund (ISF)",
+            "Patent Support Program"
+          ]
+        },
+        {
+          "name": "Mobility Grants",
+          "items": [
+            "Pak-US Joint Research Program (with USA)",
+            "Pakistan Program For Collaborative Research (PPCR)",
+            "PAK-TURK Researchers' Mobility Grant Programme",
+            "Pak-FRANCE Peridot Research Program",
+            "JICA Japan Mobility Program",
+            "Erasmus +",
+            "Erasmus + ICM",
+            "Erasmus + Marquee"
+          ]
+        },
+        {
+          "name": "Pakistan Science Foundation (PSF)",
+          "items": [
+            "Research Support Grants",
+            "Travel Grants for Presentation of Research Papers",
+            "Library Support Grant",
+            "Grants for Organizing Seminars/Conferences",
+            "Textbook & Monograph Writing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "non-hec-grants",
+      "title": "Non-HEC Grants",
+      "icon": "FaGlobe",
+      "iconColor": "text-cyan-400",
+      "backgroundColor": "bg-cyan-500/10",
+      "categories": [
+        {
+          "name": "External Funding Opportunities",
+          "items": [
+            "Non-HEC Funding Opportunities",
+            "Ignite FYP Fund",
+            "Ignite Seed Fund",
+            "Small Research Grant By Spencer Foundation",
+            "International Development Research Centre Grant",
+            "Sindh HEC",
+            "Sindh HEC Research Funding"
+          ]
+        }
+      ]
+    }
+  ]
+}

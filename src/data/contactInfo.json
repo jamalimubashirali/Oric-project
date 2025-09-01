@@ -1,0 +1,93 @@
+{
+  "pageTitle": "Contact Us",
+  "pageDescription": "Get in touch with MUET ORIC for research, innovation, and collaboration opportunities",
+  "officeInfo": {
+    "name": "Office of Research, Innovation and Commercialization",
+    "university": "Mehran University of Engineering and Technology",
+    "address": {
+      "street": "University Campus",
+      "city": "Jamshoro",
+      "province": "Sindh",
+      "country": "Pakistan",
+      "postalCode": "76062"
+    },
+    "phone": "+92 22 2772250-73",
+    "fax": "+92 22 2772281",
+    "email": "oric@admin.muet.edu.pk",
+    "website": "https://www.muet.edu.pk"
+  },
+  "departments": [
+    {
+      "name": "Research Operations & Development",
+      "head": "Arif Ali Jalbani",
+      "title": "Manager",
+      "email": "arif.ali@admin.muet.edu.pk",
+      "phone": "+92 21 2772250-73 Ext. 6503",
+      "mobile": "+92 316 8832427"
+    },
+    {
+      "name": "University Industry Linkages & Technology Transfer",
+      "head": "Dr. Syed Muhammad Ali Shah",
+      "title": "Manager",
+      "email": "smalis@yahoo.com",
+      "phone": "+92 22 2030661 Ext. 6509",
+      "mobile": "+92 300 9234586"
+    },
+    {
+      "name": "Intellectual Property / Legal Services",
+      "head": "Tarique Masroor Ahmed",
+      "title": "Manager",
+      "email": "tarique.masroor@admin.muet.edu.pk",
+      "mobile": "+92 300 3310275"
+    }
+  ],
+  "contactForm": {
+    "fields": [
+      {
+        "name": "fullName",
+        "label": "Full Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your full name"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "tel",
+        "required": false,
+        "placeholder": "Enter your phone number"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text",
+        "required": true,
+        "placeholder": "Subject of your inquiry"
+      },
+      {
+        "name": "message",
+        "label": "Message",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "Write your message here..."
+      }
+    ]
+  },
+  "mapLocation": {
+    "latitude": 25.4097,
+    "longitude": 68.7740,
+    "zoomLevel": 15
+  },
+  "workingHours": {
+    "weekdays": "Monday - Friday: 8:00 AM - 5:00 PM",
+    "weekend": "Saturday: 8:00 AM - 2:00 PM",
+    "closed": "Sunday: Closed"
+  }
+}

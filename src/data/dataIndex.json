@@ -1,0 +1,84 @@
+{
+  "dataFiles": {
+    "fundingOpportunities": {
+      "file": "fundingOpportunitiesNew.json",
+      "description": "Comprehensive funding opportunities data",
+      "component": "FundOpportunity.jsx",
+      "lastUpdated": "2025-08-18"
+    },
+    "fundedProjects": {
+      "file": "fundedProjectsNew.json", 
+      "description": "Faculty and student funded projects",
+      "component": "FundProjects.jsx",
+      "lastUpdated": "2025-08-18"
+    },
+    "teamData": {
+      "file": "teamData.json",
+      "description": "ORIC team member information",
+      "component": "OurTeamPage.jsx",
+      "lastUpdated": "2025-08-18"
+    },
+    "industrialCollaboration": {
+      "file": "industrialCollaboration.json",
+      "description": "Industry partnership data",
+      "component": "IndustrialCollobration.jsx",
+      "lastUpdated": "2025-08-18"
+    },
+    "institutionalCollaboration": {
+      "file": "institutionalCollaboration.json",
+      "description": "Academic partnership data",
+      "component": "InstitutionalCollaboration.jsx", 
+      "lastUpdated": "2025-08-18"
+    },
+    "newsEvents": {
+      "file": "newsEvents.json",
+      "description": "News articles and events data",
+      "component": "NewsAndEvents.jsx",
+      "lastUpdated": "2025-08-18"
+    },
+    "universityStats": {
+      "file": "universityStats.json",
+      "description": "University statistics and metrics",
+      "component": "Stats.jsx",
+      "lastUpdated": "2025-08-18"
+    },
+    "navigationData": {
+      "file": "navigationData.json",
+      "description": "Navigation menu structure",
+      "component": "NewNavbar.jsx",
+      "lastUpdated": "2025-08-18"
+    },
+    "footerData": {
+      "file": "footerData.json",
+      "description": "Footer links and contact information",
+      "component": "Footer.jsx",
+      "lastUpdated": "2025-08-18"
+    },
+    "researchJournals": {
+      "file": "researchJournals.json",
+      "description": "Research publication information",
+      "component": "ResearchJournals.jsx",
+      "lastUpdated": "2025-08-18"
+    },
+    "contactInfo": {
+      "file": "contactInfo.json",
+      "description": "Contact information and form structure",
+      "component": "ContactUsPage.jsx",
+      "lastUpdated": "2025-08-18"
+    }
+  },
+  "usage": {
+    "import": "Import the JSON files in your components using ES6 imports",
+    "example": "import fundingData from '../data/fundingOpportunitiesNew.json'",
+    "props": "Pass data as props to child components for reusability",
+    "updates": "Update JSON files when content changes instead of hardcoding"
+  },
+  "benefits": [
+    "Centralized data management",
+    "Easy content updates",
+    "Separation of concerns",
+    "Reusable components",
+    "Better maintainability",
+    "Consistent data structure"
+  ]
+}

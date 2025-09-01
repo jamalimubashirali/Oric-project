@@ -1,0 +1,118 @@
+{
+  "navigation": {
+    "logo": {
+      "text": "ORIC",
+      "alt": "MUET Logo"
+    },
+    "navItems": [
+      {
+        "name": "Home",
+        "path": "/",
+        "hasSubItems": false
+      },
+      {
+        "name": "About",
+        "hasSubItems": true,
+        "description": "Learn about our mission and organization",
+        "subItems": [
+          {
+            "name": "About Us",
+            "path": "/aboutus",
+            "description": "Learn about our mission and vision"
+          },
+          {
+            "name": "Team",
+            "path": "/about/team",
+            "description": "Meet our dedicated team members"
+          },
+          {
+            "name": "What is IPO/TTO/TISC",
+            "path": "/about/what-is-ipo",
+            "description": "Understanding our innovation office"
+          },
+          {
+            "name": "IP & Tech Transfer Policy",
+            "path": "/about/ip-tech-policy",
+            "description": "Our intellectual property guidelines"
+          }
+        ]
+      },
+      {
+        "name": "Collaboration",
+        "hasSubItems": true,
+        "description": "Partnership opportunities and alliances",
+        "subItems": [
+          {
+            "name": "Industrial Collaboration",
+            "path": "/collaboration/industrial-collobration",
+            "description": "Partnership opportunities with industry"
+          },
+          {
+            "name": "Institutional Collaboration",
+            "path": "/collaboration/institutional-collobration",
+            "description": "Academic partnerships and alliances"
+          },
+          {
+            "name": "Other Collaborations",
+            "path": "/collaboration/other-collaboration",
+            "description": "Various partnership opportunities"
+          }
+        ]
+      },
+      {
+        "name": "Research & Innovation",
+        "hasSubItems": true,
+        "description": "Funding, projects, and breakthrough research",
+        "subItems": [
+          {
+            "name": "Funding Opportunities",
+            "path": "/research-innovation/funded-opportunity",
+            "description": "Available funding programs and grants"
+          },
+          {
+            "name": "Funded Projects",
+            "path": "/research-innovation/funded-projects",
+            "description": "Ongoing and completed research projects"
+          },
+          {
+            "name": "Research Journals",
+            "path": "/research-innovation/research-journals",
+            "description": "Published research and publications"
+          }
+        ]
+      },
+      {
+        "name": "BIC",
+        "hasSubItems": true,
+        "description": "Business incubation and startup support",
+        "subItems": [
+          {
+            "name": "Who We Are",
+            "path": "/bic/who-we-are",
+            "description": "About our Business Incubation Center"
+          },
+          {
+            "name": "What We Do",
+            "path": "/bic/what-we-do",
+            "description": "Our services and support programs"
+          },
+          {
+            "name": "Incubation Process",
+            "path": "/bic/process",
+            "description": "How to join our incubation program"
+          }
+        ]
+      },
+      {
+        "name": "News & Events",
+        "path": "/news-events",
+        "hasSubItems": false
+      },
+      {
+        "name": "Contact",
+        "path": "/contact",
+        "hasSubItems": false
+      }
+    ]
+  }
+}

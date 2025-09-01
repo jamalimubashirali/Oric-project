@@ -1,0 +1,141 @@
+{
+  "pageTitle": "Industrial Collaboration",
+  "pageDescription": "Building bridges between academia and industry for innovation and technological advancement",
+  "subtitle": "Partnership opportunities with industry leaders",
+  "companies": [
+    {
+      "id": "comp_001",
+      "name": "Pakistan Cables",
+      "logo": "pakistanCablesLogo",
+      "url": "https://www.pakistancables.com",
+      "category": "Manufacturing",
+      "description": "Leading cable manufacturing company in Pakistan"
+    },
+    {
+      "id": "comp_002",
+      "name": "Jamshoro Power Company",
+      "logo": "jpclLogo",
+      "url": "https://www.jpcl.com.pk",
+      "category": "Energy",
+      "description": "Power generation and distribution company"
+    },
+    {
+      "id": "comp_003",
+      "name": "Dawlance Pakistan",
+      "logo": "dawlanceLogo",
+      "url": "https://www.dawlance.com.pk",
+      "category": "Home Appliances",
+      "description": "Leading home appliances manufacturer"
+    },
+    {
+      "id": "comp_004",
+      "name": "Sindh Engro Coal Mining",
+      "logo": "secmcLogo",
+      "url": "https://www.secmc.com.pk",
+      "category": "Mining",
+      "description": "Coal mining and energy production"
+    },
+    {
+      "id": "comp_005",
+      "name": "Engro Powergen",
+      "logo": "engroLogo",
+      "url": "https://www.engro.com",
+      "category": "Energy",
+      "description": "Power generation and energy solutions"
+    },
+    {
+      "id": "comp_006",
+      "name": "Hubco Power",
+      "logo": "hubcoLogo",
+      "url": "https://www.hubpower.com",
+      "category": "Energy",
+      "description": "Independent power producer"
+    },
+    {
+      "id": "comp_007",
+      "name": "Haleon Pakistan",
+      "logo": "haleonLogo",
+      "url": "https://www.haleon.com",
+      "category": "Healthcare",
+      "description": "Consumer healthcare products"
+    },
+    {
+      "id": "comp_008",
+      "name": "Crescent Steel",
+      "logo": "crescentLogo",
+      "url": "https://www.crescent.com.pk",
+      "category": "Steel",
+      "description": "Steel manufacturing and processing"
+    },
+    {
+      "id": "comp_009",
+      "name": "Agha Steel Mills",
+      "logo": "aghaSteelLogo",
+      "url": "https://www.aghasteel.com",
+      "category": "Steel",
+      "description": "Steel production and manufacturing"
+    },
+    {
+      "id": "comp_010",
+      "name": "Sapphire Textile Mills",
+      "logo": "sapphireLogo",
+      "url": "https://www.sapphire.com.pk",
+      "category": "Textile",
+      "description": "Textile manufacturing and garments"
+    },
+    {
+      "id": "comp_011",
+      "name": "Liberty Mills",
+      "logo": "libertyMillsLogo",
+      "url": "https://www.libertymills.com.pk",
+      "category": "Textile",
+      "description": "Textile and fabric manufacturing"
+    },
+    {
+      "id": "comp_012",
+      "name": "NTDC",
+      "logo": "ntdcLogo",
+      "url": "https://www.ntdc.com.pk",
+      "category": "Power Transmission",
+      "description": "National power transmission company"
+    },
+    {
+      "id": "comp_013",
+      "name": "Fast Cables",
+      "logo": "fastCablesLogo",
+      "url": "https://www.fastcables.com",
+      "category": "Manufacturing",
+      "description": "Cable and wire manufacturing"
+    },
+    {
+      "id": "comp_014",
+      "name": "Archroma",
+      "logo": "archromaLogo",
+      "url": "https://www.archroma.com",
+      "category": "Chemicals",
+      "description": "Specialty chemicals and dyes"
+    }
+  ],
+  "collaborationTypes": [
+    {
+      "type": "Research & Development",
+      "description": "Joint research projects and technology development",
+      "icon": "FaFlask"
+    },
+    {
+      "type": "Internships & Training",
+      "description": "Student internship programs and professional training",
+      "icon": "FaUserGraduate"
+    },
+    {
+      "type": "Technology Transfer",
+      "description": "Commercialization of research and technology transfer",
+      "icon": "FaExchangeAlt"
+    },
+    {
+      "type": "Consultancy Services",
+      "description": "Expert consultancy and technical services",
+      "icon": "FaHandshake"
+    }
+  ]
+}
