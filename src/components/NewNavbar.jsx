@@ -20,6 +20,37 @@ const NewNavbar = ({ children }) => {
   const location = useLocation();
   const user = JSON.parse(localStorage.getItem("user"));
 
+  const oricHighlight = {
+      color: '#00C6FF',
+      display: 'inline',
+      background: 'linear-gradient(90deg, #0072FF, #00C6FF)',
+      WebkitBackgroundClip: 'text',
+      WebkitTextFillColor: 'transparent',
+      textShadow: 'none',
+    }
+
+  // Animated ORIC full name words
+  const fullNameWords = [
+    "Research",
+    "Innovation",
+    "Commercialization"
+  ];
+  const [currentWordIdx, setCurrentWordIdx] = useState(0);
+  const [animationState, setAnimationState] = useState('entering');
+  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setAnimationState('exiting');
+      
+      setTimeout(() => {
+        setCurrentWordIdx((prev) => (prev + 1) % fullNameWords.length);
+        setAnimationState('entering');
+      }, 500);
+    }, 3000);
+    
+    return () => clearInterval(interval);
+  }, []);
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (profileRef.current && !profileRef.current.contains(event.target)) {
@@ -85,6 +116,7 @@ const NewNavbar = ({ children }) => {
     { name: "News & Events", path: "/news-events" },
     { name: "Contact", path: "/contact" },  
   ];
+  
   // Check if current path is within a section
   const isPathInSection = (section) => {
     if (!section.subItems) return false;
@@ -129,8 +161,8 @@ const NewNavbar = ({ children }) => {
       <nav className="bg-white text-gray-900 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between h-16">            
-            {/* Logo */}
-            <Link to="/" className="flex items-center space-x-3">
+            {/* Logo - Left aligned */}
+            <Link to="/" className="flex items-center space-x-3 flex-shrink-0">
               <div className="h-10 w-10">
                 <img
                   src={logo}
@@ -140,35 +172,54 @@ const NewNavbar = ({ children }) => {
               </div>
               <span className="text-xl font-semibold">ORIC</span>
             </Link>            
-            {/* Main Navigation Links - only visible on large screens */}
-            <div className="hidden lg:flex items-center space-x-8">
-              {navItems.map((item, index) => (
-                <div 
-                  key={index} 
-                  className="relative"
-                  onMouseEnter={() => handleNavItemEnter(item)}
-                  onMouseLeave={handleNavItemLeave}
+            
+            {/* Main Navigation Links - Centered */}
+            <div className="hidden lg:flex items-center justify-center flex-1 mx-8">
+              <div className="flex items-center space-x-5">
+                {navItems.map((item, index) => (
+                  <div 
+                    key={index} 
+                    className="relative"
+                    onMouseEnter={() => handleNavItemEnter(item)}
+                    onMouseLeave={handleNavItemLeave}
+                  >
+                    {item.path ? (
+                      <Link
+                        to={item.path}
+                        className={`text-sm font-medium transition-colors text-gray-800 hover:text-blue-700 ${location.pathname === item.path ? "text-blue-700 font-bold" : ""}`}
+                      >
+                        {item.name}
+                      </Link>
+                    ) : (
+                      <span
+                        className={`text-sm font-medium transition-colors text-gray-800 hover:text-blue-700 cursor-pointer flex items-center space-x-1 ${isPathInSection(item) || hoveredSection === item.name ? "text-blue-700 font-bold" : ""}`}
+                      >
+                        <span>{item.name}</span>
+                        <FiChevronDown 
+                          size={14} 
+                          className={`transition-transform duration-200 ${hoveredSection === item.name ? 'rotate-180' : ''}`}
+                        />
+                      </span>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+            
+            {/* Animated ORIC Full Name - Right aligned */}
+            <div className="hidden lg:flex items-center justify-end flex-shrink-0">
+              <span className="relative block min-w-[170px] h-7 text-right">
+                <span
+                style={oricHighlight}
+                  className={`text-lg font-semibold whitespace-nowrap transition-all duration-500 ${
+                    animationState === 'entering' 
+                      ? 'opacity-100 translate-y-0' 
+                      : 'opacity-0 -translate-y-2'
+                  }`}
                 >
-                  {item.path ? (
-                    <Link
-                      to={item.path}
-                      className={`text-sm font-medium transition-colors text-gray-800 hover:text-blue-700 ${location.pathname === item.path ? "text-blue-700 font-bold" : ""}`}
-                    >
-                      {item.name}
-                    </Link>
-                  ) : (
-                    <span
-                      className={`text-sm font-medium transition-colors text-gray-800 hover:text-blue-700 cursor-pointer flex items-center space-x-1 ${isPathInSection(item) || hoveredSection === item.name ? "text-blue-700 font-bold" : ""}`}
-                    >
-                      <span>{item.name}</span>
-                      <FiChevronDown 
-                        size={14} 
-                        className={`transition-transform duration-200 ${hoveredSection === item.name ? 'rotate-180' : ''}`}
-                      />
-                    </span>
-                  )}
-                </div>
-              ))}
+                  {fullNameWords[currentWordIdx]}
+                </span>
+              </span>
             </div>
 
             <div className="flex items-center">
@@ -271,7 +322,7 @@ const NewNavbar = ({ children }) => {
                   <Link
                     to={navItems.find(item => item.name === hoveredSection)?.subItems[0]?.path}
                     onClick={handleLinkClick}
-                    className="inline-block border border-gray-400 hover:border-white px-6 py-2 text-sm transition-colors mt-4 rounded hover:bg-gray-800"
+                    className="inline-block border border-gray-400 hover:border-white px-6 py-2 text-sm transition-colors mt-4 rounded hover:bg-gray-800 hover:text-gray-100"
                   >
                     Learn more
                   </Link>

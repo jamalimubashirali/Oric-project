@@ -17,32 +17,32 @@ import IndustrialCollaboration from './pages/IndustrialCollobration.jsx';
 import InstitutionalCollaboration from './pages/InstitutionalCollaboration.jsx';
 import OtherCollaboration from './pages/OtherCollobration.jsx';
 import Login from './pages/Login.jsx';
-import Home from './pages_Admin/Home.jsx';
-import TeacherDashboard from './pages_Admin/TeacherDashboard.jsx';
-import UserManage from './pages_Admin/UserManage.jsx';
-import LoginApprove from './pages_Admin/LoginApprove.jsx';
+// import Home from './pages_Admin/Home.jsx';
+// // import TeacherDashboard from './pages_Admin/TeacherDashboard.jsx';
+// import UserManage from './pages_Admin/UserManage.jsx';
+// import LoginApprove from './pages_Admin/LoginApprove.jsx';
 import FundOpportunity from './pages/FundOpportunity.jsx';
 import FundProjects from './pages/FundProjects.jsx';
 import ResearchJournals from './pages/ResearchJournals.jsx';
-import WhoWeAre from './pages/WhoWeAre.jsx';
+// import WhoWeAre from './pages/WhoWeAre.jsx';
 import WhatWeDo from './pages/WhatWeDo.jsx';
 import NewsAndEvents from './pages/NewsAndEvents.jsx';
 import ContactUsPage from './pages/ContactUsPage.jsx';
 import Sidebar  from './components/Sidebar.jsx';
-import Home1 from './pages_Admin/Home1.jsx';
+// import Home1 from './pages_Admin/Home1.jsx';
 
 import { stringify } from 'postcss';
 import { useEffect, useState } from 'react';
 
 
-import AdminViewProfile from './pages_Admin/AdminViewProfile.jsx';
-import ProtectedRoute from './components/ProtectedRoute.jsx';
-import Unauthorized from './components/Unauthorized.jsx';
-import UserHome from './pages_user/UserHome.jsx';
-import ResearchExcellenceForm from './pages_user/form/ResearchExcellenceForm.jsx';
-import ResearchExcellenceRecords from './pages_user/form/ResearchExcellenceRecords.jsx';
-import User_published_papers from './pages_Admin/models/User_published_papers.jsx';
-import MyPublish from './pages_user/MyPublish.jsx';
+// import AdminViewProfile from './pages_Admin/AdminViewProfile.jsx';
+// import ProtectedRoute from './components/ProtectedRoute.jsx';
+// import Unauthorized from './components/Unauthorized.jsx';
+// // import UserHome from './pages_user/UserHome.jsx';
+// import ResearchExcellenceForm from './pages_user/form/ResearchExcellenceForm.jsx';
+// import ResearchExcellenceRecords from './pages_user/form/ResearchExcellenceRecords.jsx';
+// import User_published_papers from './pages_Admin/models/User_published_papers.jsx';
+// import MyPublish from './pages_user/MyPublish.jsx';
 
 
 
@@ -131,7 +131,7 @@ function App() {
           <Route path="/login" element={<NewNavbar><Login /></NewNavbar>} />
           <Route path="/sidebar" element={<Sidebar />} />
 
-        <Route path="/unauthorized" element={<Unauthorized />} />
+        {/* <Route path="/unauthorized" element={<Unauthorized />} /> */}
 
 
           
@@ -141,24 +141,22 @@ function App() {
 
 
           {/* Admin Only */}
-        <Route element={<ProtectedRoute allowedRoles={['admin']} />}>
+         {/* <Route element={<ProtectedRoute allowedRoles={['admin']} />}>
         <Route path="/papers" element={<ResearchExcellenceRecords />} />
 
           <Route path="/Dashboard" element={<Home1 />} />
           <Route path="/home1" element={<Home />} />
           {/* <Route path="/Dashboard" element={<Home1 />} /> */}
-          {/* <Route path="/Admin-Dash" element={<TeacherDashboard />} /> */}
-          <Route path="/All-Users" element={<UserManage />} />
-          {/* <Route path="/Student-profile/:studentId" element={<UserManage />} /> */}
-          <Route path="/LoginApprove" element={<LoginApprove />} />
-          <Route path="/AdminProfile" element={<AdminViewProfile />} />
-          <Route path="/User_published_papers" element={<User_published_papers />} />
+          {/* <Route path="/All-Users" element={<UserManage />} /> */}
+          {/* <Route path="/LoginApprove" element={<LoginApprove />} /> */}
+          {/* <Route path="/AdminProfile" element={<AdminViewProfile />} /> */}
+          {/* <Route path="/User_published_papers" element={<User_published_papers />} /> */}
 
-          {/* User_published_papers.jsx */}
-        </Route>
+
+        {/* </Route> */}
 
   {/* User Only */}
-        <Route element={<ProtectedRoute allowedRoles={['user']} />}>
+        {/* <Route element={<ProtectedRoute allowedRoles={['user']} />}>
           <Route path="/UserDashboard" element={<UserHome />} />
         <Route path="/request-to-publish" element={<ResearchExcellenceForm />} />
 
@@ -166,7 +164,7 @@ function App() {
           <Route path="/mypublish" element={<MyPublish />} /> 
          
           <Route path="/userProfile" element={<AdminViewProfile />} /> 
-        </Route>
+        </Route> */}
         </Routes>
       </div>
     </Router>

@@ -188,10 +188,10 @@ const AboutUsPage = () => {
                   className="w-full h-full object-cover object-center"
                 />
               </div>
-              <div className="mx-auto max-w-xl mt-4 text-center">
+              {/* <div className="mx-auto max-w-xl mt-4 text-center">
                 <h3 className="text-xl font-bold text-gray-900">{data.vcName}</h3>
                 <p className="text-blue-600 font-medium">{data.vcDesignation}</p>
-              </div>
+              </div> */}
               <motion.div
                 className="absolute -top-6 -left-6 w-24 h-24 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 rounded-2xl -z-10"
                 animate={{
@@ -208,7 +208,7 @@ const AboutUsPage = () => {
 
             {/* VC's Message Content */}
             <motion.div variants={itemVariants} className="lg:w-1/2">
-              <motion.span className="inline-block px-5 py-2 bg-gradient-to-r from-blue-500/10 to-cyan-500/10 text-blue-600 rounded-full text-sm font-medium mb-6 border border-blue-500/20">
+              <motion.span className="inline-block px-5 py-2 bg-gradient-to-r from-blue-500/10 to-cyan-500/10 text-cyan-600 rounded-full text-sm font-medium mb-6 border border-blue-500/20">
                 Vice Chancellor's Message
               </motion.span>
 
