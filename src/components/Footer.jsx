@@ -62,7 +62,7 @@ const Footer = () => {
                 <FaFacebook size={18} />
               </motion.a> */}
               <motion.a 
-                href="https://www.linkedin.com/company/oricmehranuniversity/"
+                href="https://www.linkedin.com/company/107967911/admin/dashboard/"
                 target='_blank' 
                 whileHover={{ y: -3 }}
                 className="w-10 h-10 rounded-full bg-blue-900/50 flex items-center justify-center text-blue-300 hover:text-white hover:bg-blue-500/30 transition-all"

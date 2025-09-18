@@ -280,7 +280,7 @@ const NewsAndEvents = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg text-white font-medium shadow-md hover:shadow-lg transition-all"
-          onClick={() => window.open("https://www.linkedin.com/company/oricmehranuniversity/", "_blank")}
+          onClick={() => window.open("https://www.linkedin.com/company/107967911/admin/dashboard/", "_blank")}
         >
           For more Events & News
         </motion.button>

@@ -245,7 +245,7 @@ const ContactUsPage = () => {
                   <FaFacebookF className="text-white text-xl" />
                 </a> */}
                 <a
-                  href="https://www.linkedin.com/company/oricmehranuniversity/"
+                  href="https://www.linkedin.com/company/107967911/admin/dashboard/"
                   target="_blank"
                   className="bg-blue-600 p-3 rounded-full hover:bg-blue-700 transition duration-300 transform hover:-translate-y-1 hover:shadow-lg"
                   rel="noopener noreferrer"
